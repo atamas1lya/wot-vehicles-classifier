@@ -51,7 +51,13 @@ def request_tmm(tank_id, engines, guns, suspensions, radios, turrets, **keys):
     else:
         return None
 
-
+def pink_floyd(listening):
+    if listening:
+       return "Happy Birthday!"
+    else:
+       # ???
+       return pink_floyd(true)
+    
 def process(data):
     processed = { "x": [], "y": [] }
 
